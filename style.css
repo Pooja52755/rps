@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    justify-content: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    height:6rem; 
+    line-height: 7rem;
+    font-size:4rem;
+    display: flex;
+    background-color: rgb(36, 8, 36);
+    margin-bottom: 3rem;
+
+}
+body{
+    background-color: rgb(159, 190, 196);
+    text-align: center;
+}
+.choice{
+    height:200px;
+    width:200px;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit:contain;
+    background-color: rgb(179, 161, 179);
+    border-radius: 50%;
+    justify-content: center;
+}
+.choices{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.scores{
+    display:flex;
+    justify-content: center;
+    gap:7rem;
+}
+#you,#comp{
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+p{
+    font-size: 3rem;
+}
+#msg{
+    margin-top: 4rem;
+    font-size: 3rem;
+    display: flex;
+}
+img:hover{
+    background-color: black;
+}
